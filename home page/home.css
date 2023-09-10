@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 300vh;
+    position: absolute;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.navbar{
+    display: flex;
+    gap: 40vw;
+    overflow: hidden;
+    background-color: black;
+    color: antiquewhite;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 4px 6px rgba(78, 77, 77, 0.849);
+    
+}
+.items ul{
+    display: flex;
+    list-style: none;
+    gap: 2vw;
+    font-weight: 400;
+    padding-top: 4vh;
+}
+
+.items a:hover{
+    font-size: 1.15rem;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.items a:visited{
+    color: antiquewhite;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.intro{
+    background-image: url(burning-sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1350px;
+    height: 650px;
+    color: antiquewhite;
+    font-family: 'Pangolin' sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head-bottom{
+    text-align: center;
+    margin: 0 auto;
+}
+.head-bottom h2{
+    padding: 22px 0;
+    font-size: 45px;
+    border-bottom: 1px solid #ffffff;
+}
+.head-bottom p{
+    font-size: 20px;
+    margin: 45px auto;
+    width: 60vw;
+}
+
+.btn{
+    background-color: aquamarine;
+    width: 10vw;
+    height: 6vh;
+    font-weight: 500;
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    border-radius: 12px;
+    font-family: 'IBM Plex Serif', serif;
+}
+.btn a:visited{
+    color: black;
+    text-decoration: none;
+}
